@@ -48,7 +48,9 @@
     <Compile Include="injects\Dispatcher.cs" />
     <Compile Include="injects\SimpleDispatcher.cs" />
     <Compile Include="injects\Router.cs" />
+    <Compile Include="models\Animal.cs" />
     <Compile Include="models\Lion.cs" />
+    <Compile Include="models\Mammalia.cs" />
     <Compile Include="models\Responce.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
