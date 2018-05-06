@@ -3,3 +3,10 @@
 /home/imdrcha/Documents/ks/zooLand/zooLand/bin/Debug/zooLand.exe
 /home/imdrcha/Documents/ks/zooLand/zooLand/obj/Debug/zooLand.exe
 /home/imdrcha/Documents/ks/zooLand/zooLand/obj/Debug/zooLand.pdb
+/home/imdrcha/Documents/ks/zooLand/zooLand/bin/Debug/Newtonsoft.Json.dll
+/home/imdrcha/Documents/projects/zooLand/zooLand/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttribute.cs
+/home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/zooLand.pdb
+/home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/zooLand.exe
+/home/imdrcha/Documents/projects/zooLand/zooLand/obj/Debug/zooLand.exe
+/home/imdrcha/Documents/projects/zooLand/zooLand/obj/Debug/zooLand.pdb
+/home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/Newtonsoft.Json.dll

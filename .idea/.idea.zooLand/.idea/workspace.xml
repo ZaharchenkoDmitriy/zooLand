@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e194da6a-9059-4171-8d3e-47e676c68708" name="Default" comment="" />
+    <list default="true" id="e194da6a-9059-4171-8d3e-47e676c68708" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/zooLand/injects/SimpleDispatcher.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zooLand/models/Lion.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zooLand/models/Responce.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zooLand/server/URI.cs" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.zooLand/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.zooLand/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.zooLand/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.zooLand/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs" afterPath="$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs" />
+      <change beforePath="$PROJECT_DIR$/zooLand/Controllers/NoController.cs" afterPath="$PROJECT_DIR$/zooLand/Controllers/NoController.cs" />
+      <change beforePath="$PROJECT_DIR$/zooLand/bin/Debug/zooLand.exe" afterPath="$PROJECT_DIR$/zooLand/bin/Debug/zooLand.exe" />
+      <change beforePath="$PROJECT_DIR$/zooLand/bin/Debug/zooLand.pdb" afterPath="$PROJECT_DIR$/zooLand/bin/Debug/zooLand.pdb" />
+      <change beforePath="$PROJECT_DIR$/zooLand/obj/Debug/zooLand.csproj.FilesWrittenAbsolute.txt" afterPath="$PROJECT_DIR$/zooLand/obj/Debug/zooLand.csproj.FilesWrittenAbsolute.txt" />
+      <change beforePath="$PROJECT_DIR$/zooLand/obj/Debug/zooLand.exe" afterPath="$PROJECT_DIR$/zooLand/obj/Debug/zooLand.exe" />
+      <change beforePath="$PROJECT_DIR$/zooLand/obj/Debug/zooLand.pdb" afterPath="$PROJECT_DIR$/zooLand/obj/Debug/zooLand.pdb" />
+      <change beforePath="$PROJECT_DIR$/zooLand/server/Dispatcher.cs" afterPath="$PROJECT_DIR$/zooLand/injects/Dispatcher.cs" />
+      <change beforePath="$PROJECT_DIR$/zooLand/server/Router.cs" afterPath="$PROJECT_DIR$/zooLand/injects/Router.cs" />
+      <change beforePath="$PROJECT_DIR$/zooLand/server/Server.cs" afterPath="$PROJECT_DIR$/zooLand/server/Server.cs" />
+      <change beforePath="$PROJECT_DIR$/zooLand/zooLand.csproj" afterPath="$PROJECT_DIR$/zooLand/zooLand.csproj" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,75 +29,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zooLand/Program.cs">
+      <file leaf-file-name="Lion.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zooLand/models/Lion.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding>
-                <marker date="1524337279035" expanded="true" signature="6:86" ph="..." />
-                <marker date="1524337279035" expanded="true" signature="119:358" ph="{...}" />
-                <marker date="1524337279035" expanded="true" signature="153:356" ph="{...}" />
-                <marker date="1524337279035" expanded="true" signature="209:350" ph="{...}" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Router.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zooLand/server/Router.cs">
+        <entry file="file://$PROJECT_DIR$/zooLand/injects/Router.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-              <folding>
-                <marker date="1524332080480" expanded="true" signature="6:105" ph="..." />
-                <marker date="1524332080480" expanded="true" signature="169:1228" ph="{...}" />
-                <marker date="1524332080480" expanded="true" signature="383:449" ph="{...}" />
-                <marker date="1524332080480" expanded="true" signature="500:718" ph="{...}" />
-                <marker date="1524332080480" expanded="true" signature="526:595" ph="{...}" />
-                <marker date="1524332080480" expanded="true" signature="627:707" ph="{...}" />
-                <marker date="1524332080480" expanded="true" signature="760:1222" ph="{...}" />
-              </folding>
+            <state relative-caret-position="596">
+              <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zooLand/server/Server.cs">
+      <file leaf-file-name="SimpleDispatcher.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zooLand/injects/SimpleDispatcher.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="324">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <marker date="1524346784319" expanded="true" signature="6:96" ph="..." />
-                <marker date="1524346784319" expanded="true" signature="134:1469" ph="{...}" />
-                <marker date="1524346784319" expanded="true" signature="164:1467" ph="{...}" />
-                <marker date="1524346784319" expanded="true" signature="211:265" ph="{...}" />
-                <marker date="1524346784319" expanded="true" signature="399:758" ph="{...}" />
-                <marker date="1524346784319" expanded="true" signature="797:1460" ph="{...}" />
-                <marker date="1524346784319" expanded="true" signature="845:1450" ph="{...}" />
+                <marker date="1525567167587" expanded="false" signature="6:136" ph="..." />
+                <marker date="1525567167587" expanded="true" signature="174:653" ph="{...}" />
+                <marker date="1525567167587" expanded="true" signature="223:651" ph="{...}" />
+                <marker date="1525567167587" expanded="true" signature="276:330" ph="{...}" />
+                <marker date="1525567167587" expanded="true" signature="445:645" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Dispatcher.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zooLand/server/Dispatcher.cs">
+        <entry file="file://$PROJECT_DIR$/zooLand/injects/Dispatcher.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="216">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
-                <marker date="1524346015962" expanded="true" signature="36:89" ph="{...}" />
-                <marker date="1524346015962" expanded="true" signature="66:87" ph="{...}" />
+                <marker date="1525567167492" expanded="true" signature="6:31" ph="..." />
+                <marker date="1525567167492" expanded="true" signature="69:277" ph="{...}" />
+                <marker date="1525567167492" expanded="true" signature="108:275" ph="{...}" />
+                <marker date="1525567167492" expanded="true" signature="142:175" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="packages.config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zooLand/packages.config">
+      <file leaf-file-name="MonoMethod.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A84B655E-5E6A-49EE-96B3-38EC792F5580/15/2c98c476/MonoMethod.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="140" column="10" lean-forward="false" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -88,11 +93,27 @@
       <file leaf-file-name="AnimalsController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding>
-                <marker date="1524334647040" expanded="true" signature="93:202" ph="{...}" />
-                <marker date="1524334647040" expanded="true" signature="135:196" ph="{...}" />
+                <marker date="1525567037240" expanded="false" signature="6:65" ph="..." />
+                <marker date="1525567037240" expanded="true" signature="108:373" ph="{...}" />
+                <marker date="1525567037240" expanded="true" signature="145:371" ph="{...}" />
+                <marker date="1525567037240" expanded="true" signature="212:365" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zooLand/DataBase/DB.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <folding>
+                <marker date="1525206001775" expanded="false" signature="6:59" ph="..." />
+                <marker date="1525206001775" expanded="true" signature="99:199" ph="{...}" />
+                <marker date="1525206001775" expanded="true" signature="128:197" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -101,12 +122,42 @@
       <file leaf-file-name="NoController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zooLand/Controllers/NoController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="180">
+              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
-                <marker date="1524332023951" expanded="true" signature="88:211" ph="{...}" />
-                <marker date="1524332023951" expanded="true" signature="131:205" ph="{...}" />
+                <marker date="1525567037063" expanded="true" signature="6:65" ph="..." />
+                <marker date="1525567037063" expanded="true" signature="108:280" ph="{...}" />
+                <marker date="1525567037063" expanded="true" signature="140:278" ph="{...}" />
+                <marker date="1525567037063" expanded="true" signature="212:272" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zooLand/server/Server.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="38" column="79" lean-forward="false" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+              <folding>
+                <marker date="1525567037196" expanded="false" signature="6:113" ph="..." />
+                <marker date="1525567037196" expanded="true" signature="151:1562" ph="{...}" />
+                <marker date="1525567037196" expanded="true" signature="181:1560" ph="{...}" />
+                <marker date="1525567037196" expanded="true" signature="237:291" ph="{...}" />
+                <marker date="1525567037196" expanded="true" signature="425:784" ph="{...}" />
+                <marker date="1525567037196" expanded="true" signature="823:1553" ph="{...}" />
+                <marker date="1525567037196" expanded="true" signature="871:1543" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Responce.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zooLand/models/Responce.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,13 +175,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/zooLand/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/zooLand/server/Dispatcher.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/zooLand/Controllers/NoController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/zooLand/server/Router.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/zooLand/server/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A84B655E-5E6A-49EE-96B3-38EC792F5580/24/220be907/Dictionary`2.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zooLand/server/URI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zooLand/models/Lion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A84B655E-5E6A-49EE-96B3-38EC792F5580/15/2c98c476/MonoMethod.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zooLand/injects/SimpleDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zooLand/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zooLand/DataBase/DB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zooLand/models/Responce.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/zooLand/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zooLand/injects/Dispatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zooLand/injects/Router.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zooLand/Controllers/NoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zooLand/server/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/64055835-7CC8-4390-BE81-86623166329D/08/792eeea6/EndPointManager.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,13 +197,20 @@
         <option value="$PROJECT_DIR$/zooLand/Controllers/indexController.cs" />
         <option value="$PROJECT_DIR$/zooLand/ControllersInterface.cs" />
         <option value="$PROJECT_DIR$/zooLand/Controllers/ControllersInterface.cs" />
-        <option value="$PROJECT_DIR$/zooLand/Controllers/NoController.cs" />
-        <option value="$PROJECT_DIR$/zooLand/server/Router.cs" />
         <option value="$PROJECT_DIR$/zooLand/view.js" />
-        <option value="$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs" />
         <option value="$PROJECT_DIR$/zooLand/Program.cs" />
+        <option value="$PROJECT_DIR$/zooLand/server/Lion.cs" />
+        <option value="$PROJECT_DIR$/zooLand/server/URI.cs" />
         <option value="$PROJECT_DIR$/zooLand/server/Dispatcher.cs" />
+        <option value="$PROJECT_DIR$/zooLand/DataBase/DB.cs" />
+        <option value="$PROJECT_DIR$/zooLand/server/Router.cs" />
+        <option value="$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs" />
+        <option value="$PROJECT_DIR$/zooLand/server/Responce.cs" />
+        <option value="$PROJECT_DIR$/zooLand/Controllers/NoController.cs" />
+        <option value="$PROJECT_DIR$/zooLand/injects/simpleDispatcher.cs" />
         <option value="$PROJECT_DIR$/zooLand/server/Server.cs" />
+        <option value="$PROJECT_DIR$/zooLand/injects/Dispatcher.cs" />
+        <option value="$PROJECT_DIR$/zooLand/injects/SimpleDispatcher.cs" />
       </list>
     </option>
   </component>
@@ -154,7 +220,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="451" />
     <option name="y" value="391" />
     <option name="width" value="1380" />
@@ -176,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -193,7 +258,19 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="zooLand (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="zooLand" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="zooLand (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="zooLand" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DataBase" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="zooLand (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="zooLand" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="injects" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -207,11 +284,12 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ConsoleApplication3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zooLand.sln" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JavaScript" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
@@ -258,12 +336,17 @@
       <option name="presentableId" value="Default" />
       <updated>1524326718275</updated>
       <workItem from="1524326727552" duration="8873000" />
-      <workItem from="1524337035873" duration="1410000" />
+      <workItem from="1524337035873" duration="5827000" />
+      <workItem from="1524466629503" duration="1705000" />
+      <workItem from="1525195042391" duration="203000" />
+      <workItem from="1525195252190" duration="48000" />
+      <workItem from="1525195356538" duration="8332000" />
+      <workItem from="1525566076086" duration="1089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10283000" />
+    <option name="totallyTimeSpent" value="26077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,28 +358,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1920" height="1051" extended-state="7" />
+    <frame x="0" y="29" width="1920" height="1051" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22258064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39892474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -308,62 +392,124 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="URI.Equals(test1, test2)" language="C#" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>_delegate.GetInvocationList().</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_delegate.GetInvocationList().First().DynamicInvoke(null)</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_delegate.GetInvocationList().First().DynamicInvoke</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_delegate.GetInvocationList().First().DynamicInvoke()</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_delegate.GetInvocationList().First()</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_delegate.GetInvocationList.First()</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_delegate.GetInvocationList.First().</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_delegate.CreateDelegate(_delegate.Target.GetType(), null, _delegate.Method)</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_delegate.CreateDelegate(_delegate.Target.GetType(), _delegate.Method)</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_delegate.CreateDelegate(_delegate.Target.GetType, null, _delegate.Method)</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zooLand/Program.cs">
+    <entry file="file://$PROJECT_DIR$/zooLand/models/Lion.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/Router.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A84B655E-5E6A-49EE-96B3-38EC792F5580/24/220be907/Dictionary`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3384">
+          <caret line="188" column="8" lean-forward="false" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/SimpleDispatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding>
-            <marker date="1524337279035" expanded="true" signature="6:86" ph="..." />
-            <marker date="1524337279035" expanded="true" signature="119:358" ph="{...}" />
-            <marker date="1524337279035" expanded="true" signature="153:356" ph="{...}" />
-            <marker date="1524337279035" expanded="true" signature="209:350" ph="{...}" />
+            <marker date="1525567167587" expanded="false" signature="6:136" ph="..." />
+            <marker date="1525567167587" expanded="true" signature="174:653" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="223:651" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="276:330" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="445:645" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zooLand/server/Router.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A84B655E-5E6A-49EE-96B3-38EC792F5580/15/2c98c476/MonoMethod.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <marker date="1524332080480" expanded="true" signature="6:105" ph="..." />
-            <marker date="1524332080480" expanded="true" signature="169:1228" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="383:449" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="500:718" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="526:595" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="627:707" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="760:1222" ph="{...}" />
-          </folding>
+        <state relative-caret-position="2520">
+          <caret line="140" column="10" lean-forward="false" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zooLand/server/Server.cs">
+    <entry file="file://$PROJECT_DIR$/zooLand/DataBase/DB.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
           <folding>
-            <marker date="1524346784319" expanded="true" signature="6:96" ph="..." />
-            <marker date="1524346784319" expanded="true" signature="134:1469" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="164:1467" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="211:265" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="399:758" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="797:1460" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="845:1450" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <marker date="1524334647040" expanded="true" signature="93:202" ph="{...}" />
-            <marker date="1524334647040" expanded="true" signature="135:196" ph="{...}" />
+            <marker date="1525206001775" expanded="false" signature="6:59" ph="..." />
+            <marker date="1525206001775" expanded="true" signature="99:199" ph="{...}" />
+            <marker date="1525206001775" expanded="true" signature="128:197" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -373,8 +519,300 @@
         <state relative-caret-position="144">
           <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding>
-            <marker date="1524332023951" expanded="true" signature="88:211" ph="{...}" />
-            <marker date="1524332023951" expanded="true" signature="131:205" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="6:65" ph="..." />
+            <marker date="1525567037063" expanded="true" signature="108:280" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="140:278" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="212:272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/server/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <marker date="1525567037196" expanded="false" signature="6:113" ph="..." />
+            <marker date="1525567037196" expanded="true" signature="151:1562" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="181:1560" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="237:291" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="425:784" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="823:1553" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="871:1543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <marker date="1525567037240" expanded="false" signature="6:65" ph="..." />
+            <marker date="1525567037240" expanded="true" signature="108:373" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="145:371" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="212:365" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/server/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1525567037196" expanded="false" signature="6:113" ph="..." />
+            <marker date="1525567037196" expanded="true" signature="151:1562" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="181:1560" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="237:291" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="425:784" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="823:1553" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="871:1543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/Router.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/server/URI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <marker date="1525198587063" expanded="true" signature="71:995" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="94:993" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="238:314" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="356:469" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="518:754" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="797:987" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="829:977" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/models/Lion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/SimpleDispatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <marker date="1525567167587" expanded="false" signature="6:136" ph="..." />
+            <marker date="1525567167587" expanded="true" signature="174:653" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="223:651" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="276:330" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="445:645" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <marker date="1525567037240" expanded="false" signature="6:65" ph="..." />
+            <marker date="1525567037240" expanded="true" signature="108:373" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="145:371" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="212:365" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/NoController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <marker date="1525567037063" expanded="true" signature="6:65" ph="..." />
+            <marker date="1525567037063" expanded="true" signature="108:280" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="140:278" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="212:272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/server/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <marker date="1525567037196" expanded="false" signature="6:113" ph="..." />
+            <marker date="1525567037196" expanded="true" signature="151:1562" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="181:1560" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="237:291" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="425:784" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="823:1553" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="871:1543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/Router.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/models/Lion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/SimpleDispatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <marker date="1525567167587" expanded="false" signature="6:136" ph="..." />
+            <marker date="1525567167587" expanded="true" signature="174:653" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="223:651" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="276:330" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="445:645" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <marker date="1525567037240" expanded="false" signature="6:65" ph="..." />
+            <marker date="1525567037240" expanded="true" signature="108:373" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="145:371" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="212:365" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/NoController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <marker date="1525567037063" expanded="true" signature="6:65" ph="..." />
+            <marker date="1525567037063" expanded="true" signature="108:280" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="140:278" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="212:272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/server/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <marker date="1525567037196" expanded="false" signature="6:113" ph="..." />
+            <marker date="1525567037196" expanded="true" signature="151:1562" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="181:1560" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="237:291" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="425:784" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="823:1553" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="871:1543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/Router.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/server/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1525567037196" expanded="false" signature="6:113" ph="..." />
+            <marker date="1525567037196" expanded="true" signature="151:1562" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="181:1560" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="237:291" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="425:784" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="823:1553" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="871:1543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <marker date="1525567037240" expanded="false" signature="6:65" ph="..." />
+            <marker date="1525567037240" expanded="true" signature="108:373" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="145:371" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="212:365" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/NoController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <marker date="1525567037063" expanded="true" signature="6:65" ph="..." />
+            <marker date="1525567037063" expanded="true" signature="108:280" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="140:278" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="212:272" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -388,69 +826,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zooLand/view.js" />
-    <entry file="file://$PROJECT_DIR$/zooLand/server/Router.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <marker date="1524332080480" expanded="true" signature="6:105" ph="..." />
-            <marker date="1524332080480" expanded="true" signature="169:1228" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="383:449" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="500:718" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="526:595" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="627:707" ph="{...}" />
-            <marker date="1524332080480" expanded="true" signature="760:1222" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <marker date="1524334647040" expanded="true" signature="93:202" ph="{...}" />
-            <marker date="1524334647040" expanded="true" signature="135:196" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/NoController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding>
-            <marker date="1524332023951" expanded="true" signature="88:211" ph="{...}" />
-            <marker date="1524332023951" expanded="true" signature="131:205" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zooLand/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <marker date="1524337279035" expanded="true" signature="6:86" ph="..." />
-            <marker date="1524337279035" expanded="true" signature="119:358" ph="{...}" />
-            <marker date="1524337279035" expanded="true" signature="153:356" ph="{...}" />
-            <marker date="1524337279035" expanded="true" signature="209:350" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zooLand/server/Dispatcher.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1524346015962" expanded="true" signature="36:89" ph="{...}" />
-            <marker date="1524346015962" expanded="true" signature="66:87" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zooLand/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/zooLand.csproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -458,18 +841,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/64055835-7CC8-4390-BE81-86623166329D/08/792eeea6/EndPointManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A84B655E-5E6A-49EE-96B3-38EC792F5580/24/220be907/Dictionary`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="188" column="8" lean-forward="false" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/server/URI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="92" lean-forward="false" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+          <folding>
+            <marker date="1525198587063" expanded="true" signature="71:995" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="94:993" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="238:314" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="356:469" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="518:754" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="797:987" ph="{...}" />
+            <marker date="1525198587063" expanded="true" signature="829:977" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A84B655E-5E6A-49EE-96B3-38EC792F5580/15/2c98c476/MonoMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="140" column="10" lean-forward="false" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/models/Lion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/Router.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/models/Responce.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/DataBase/DB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding>
+            <marker date="1525206001775" expanded="false" signature="6:59" ph="..." />
+            <marker date="1525206001775" expanded="true" signature="99:199" ph="{...}" />
+            <marker date="1525206001775" expanded="true" signature="128:197" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zooLand/server/Server.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="612">
+          <caret line="38" column="79" lean-forward="false" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
           <folding>
-            <marker date="1524346784319" expanded="true" signature="6:96" ph="..." />
-            <marker date="1524346784319" expanded="true" signature="134:1469" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="164:1467" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="211:265" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="399:758" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="797:1460" ph="{...}" />
-            <marker date="1524346784319" expanded="true" signature="845:1450" ph="{...}" />
+            <marker date="1525567037196" expanded="false" signature="6:113" ph="..." />
+            <marker date="1525567037196" expanded="true" signature="151:1562" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="181:1560" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="237:291" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="425:784" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="823:1553" ph="{...}" />
+            <marker date="1525567037196" expanded="true" signature="871:1543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/Dispatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <marker date="1525567167492" expanded="true" signature="6:31" ph="..." />
+            <marker date="1525567167492" expanded="true" signature="69:277" ph="{...}" />
+            <marker date="1525567167492" expanded="true" signature="108:275" ph="{...}" />
+            <marker date="1525567167492" expanded="true" signature="142:175" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/AnimalsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <marker date="1525567037240" expanded="false" signature="6:65" ph="..." />
+            <marker date="1525567037240" expanded="true" signature="108:373" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="145:371" ph="{...}" />
+            <marker date="1525567037240" expanded="true" signature="212:365" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/Controllers/NoController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <marker date="1525567037063" expanded="true" signature="6:65" ph="..." />
+            <marker date="1525567037063" expanded="true" signature="108:280" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="140:278" ph="{...}" />
+            <marker date="1525567037063" expanded="true" signature="212:272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zooLand/injects/SimpleDispatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1525567167587" expanded="false" signature="6:136" ph="..." />
+            <marker date="1525567167587" expanded="true" signature="174:653" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="223:651" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="276:330" ph="{...}" />
+            <marker date="1525567167587" expanded="true" signature="445:645" ph="{...}" />
           </folding>
         </state>
       </provider>

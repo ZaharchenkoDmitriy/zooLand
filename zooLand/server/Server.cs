@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Net;using System.Text;
 using System.Threading;
 using Newtonsoft.Json;
@@ -7,6 +8,7 @@ namespace ConsoleApplication1.server
 {
     public class HttpServer
     {
+        
         public HttpServer(Router router)
         {
             this.router = router;
@@ -32,16 +34,14 @@ namespace ConsoleApplication1.server
             while (true)
             {
                 HttpListenerContext ctx = _httpListener.GetContext();
-
-                Delegate getResponce = router.getController(ctx.Request.RawUrl);
+                SimpleDispatcher simpleDispatcher = new SimpleDispatcher(Router.getRouter());
                 
-                Dispatcher dispatcher = new Dispatcher();
+                Object responseObject = simpleDispatcher.getResponce(ctx.Request).Body;
+                byte[] response = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(responseObject));
                 
-                
-                _response = dispatcher.getResponse();
                 ctx.Response.ContentType = "application/json"; 
                 ctx.Response.AppendHeader("Access-Control-Allow-Origin", "*");
-                ctx.Response.OutputStream.Write(_response, 0, _response.Length);
+                ctx.Response.OutputStream.Write(response, 0, response.Length);
                 ctx.Response.Close();
             }
         } 

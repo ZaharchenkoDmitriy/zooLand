@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Net;
+using ConsoleApplication1.server;
 
 namespace ConsoleApplication1.Controllers
 {
     public class NoController
     {
-        public String noController()
+        public Responce noController(HttpListenerRequest request)
         {
-            return "<p>Get the fuck out of here</p>";
+            return Responce.notFound();
         }
     }
 }

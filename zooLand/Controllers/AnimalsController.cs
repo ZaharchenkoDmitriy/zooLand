@@ -1,12 +1,17 @@
 ﻿using System;
+using System.Net;
+using ConsoleApplication1.server;
 
 namespace ConsoleApplication1.Controllers
 {
     public class AnimalsController
     {
-        public String getResponse()
+        public Responce getLion(HttpListenerRequest request)
         {
-            return "Hello motherfucker";
+            Lion lion = new Lion();
+            lion.Name = "Hello motherfucker";
+            
+            return Responce.ok(lion);
         }
     }
 }
