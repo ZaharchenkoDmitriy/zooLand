@@ -4,7 +4,7 @@ namespace ConsoleApplication1.server
 {
     public class Responce
     {
-        public string Status { get; set; }
+        public int Status { get; set; }
         public object Body { get; set; }
 
         public static Responce ok(Object body)
@@ -12,7 +12,7 @@ namespace ConsoleApplication1.server
             Responce responce = new Responce();
 
             responce.Body = body;
-            responce.Status = "OK";
+            responce.Status = 200;
 
             return responce;
         }
@@ -21,7 +21,7 @@ namespace ConsoleApplication1.server
         {
            Responce responce = new Responce();
 
-            responce.Status = "Not Found";
+            responce.Status = 404;
             responce.Body = null;
 
             return responce;

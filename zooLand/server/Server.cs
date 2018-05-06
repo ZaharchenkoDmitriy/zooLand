@@ -36,12 +36,15 @@ namespace ConsoleApplication1.server
                 HttpListenerContext ctx = _httpListener.GetContext();
                 SimpleDispatcher simpleDispatcher = new SimpleDispatcher(Router.getRouter());
                 
-                Object responseObject = simpleDispatcher.getResponce(ctx.Request).Body;
-                byte[] response = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(responseObject));
+                Responce response = simpleDispatcher.getResponce(ctx.Request);
+                
+                byte[] responseBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(response.Body));
+                ctx.Response.StatusCode = response.Status;
                 
                 ctx.Response.ContentType = "application/json"; 
                 ctx.Response.AppendHeader("Access-Control-Allow-Origin", "*");
-                ctx.Response.OutputStream.Write(response, 0, response.Length);
+                
+                ctx.Response.OutputStream.Write(responseBody, 0, responseBody.Length);
                 ctx.Response.Close();
             }
         } 
