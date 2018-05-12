@@ -11,7 +11,8 @@ namespace ConsoleApplication1.Controllers
         {
             Lion lion = new Lion();
             lion.Name = "Lion grisha";
-            lion.FoodType = "Meat";
+            lion.AnimalClass = "Mammalia";
+            lion.FeedDate = "2018-05-05";
             DB.animals.Add(lion);
             
             return Responce.ok(DB.getAnimals());

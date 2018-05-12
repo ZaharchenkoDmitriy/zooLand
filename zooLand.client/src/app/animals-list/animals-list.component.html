@@ -1,5 +1,8 @@
-<ul>
-  <li *ngFor="let animal of animals">
-    <app-animal [animal]="animal"></app-animal>
-  </li>
-</ul>
+<div>
+  <ul class="list-group" *ngFor="let animalsList of splitedAnimals">
+    <h3>{{animalsList.class}}</h3>
+    <li *ngFor="let animal of animalsList.animals" class="list-group-item">
+      <app-animal [animal]="animal"></app-animal>
+    </li>
+  </ul>
+</div>
