@@ -1,0 +1,15 @@
+<form (submit)="createUser($event)">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Name</span>
+    </div>
+    <input type="text"
+           class="form-control"
+           name="name"
+           [(ngModel)]="user.Name">
+  </div>
+
+  <button type="submit">
+    Create User
+  </button>
+</form>

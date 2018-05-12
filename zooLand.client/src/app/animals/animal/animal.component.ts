@@ -1,5 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {Animal} from '../../models/Animal';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-animal',
@@ -9,8 +8,6 @@ import {Animal} from '../../models/Animal';
 export class AnimalComponent implements OnInit {
 
   constructor() { }
-
-  @Input() animal: Animal;
 
   ngOnInit() {
   }

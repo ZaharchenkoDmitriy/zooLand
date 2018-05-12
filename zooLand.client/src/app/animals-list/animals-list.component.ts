@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Animal} from '../models/Animal';
+import {AnimalService} from '../services/animal/animal.service';
 
 @Component({
   selector: 'app-animals-list',
@@ -6,12 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./animals-list.component.css']
 })
 export class AnimalsListComponent implements OnInit {
-  public animals: {name: string, foodType: string}[] = [];
+  public animals: Animal[];
 
-  constructor() { }
+  constructor(private animalService: AnimalService) { }
 
   ngOnInit() {
-    this.animals.push({name: 'LionMisha', foodType: 'Meat'});
+    this.animalService.getAnimals()
+      .then(animals => this.animals = animals);
   }
 
 }

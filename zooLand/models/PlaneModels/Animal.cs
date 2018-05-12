@@ -2,8 +2,8 @@
 
 namespace ConsoleApplication1.server
 {
-    public abstract class Animal
+    public class Animal
     {
-        public abstract void feed();
+        public string Name { get; set; }
     }
 }

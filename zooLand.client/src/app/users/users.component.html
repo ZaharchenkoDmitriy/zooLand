@@ -1,0 +1,9 @@
+<ul>
+  <app-user *ngFor="let user of users" [user]="user"></app-user>
+</ul>
+
+<button (click)="creatingUser = true"
+        class="btn btn-dark">
+Create User
+</button>
+<app-create-user *ngIf="creatingUser" (userCreated)="userCreated($event)"></app-create-user>

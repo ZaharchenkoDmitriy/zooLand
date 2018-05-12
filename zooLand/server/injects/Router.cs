@@ -19,6 +19,10 @@ namespace ConsoleApplication1.server
 
         public Delegate getController(URI uri)
         {
+            if (uri.Route[uri.Route.Length - 1] == '/')
+            {
+                uri.Route = uri.Route.Remove(uri.Route.Length - 1);
+            } 
             try
             {
                 return controllers[uri];
@@ -38,7 +42,7 @@ namespace ConsoleApplication1.server
 
             Response response;
             
-            response = animalsController.getLion;
+            response = animalsController.getAnimals;
             router.addController(new URI("/animals", "GET"), response);
 
             response = usersController.createUser;
