@@ -20,7 +20,7 @@ namespace ConsoleApplication1.server
         {
             Delegate _delegate = router.getController(new URI(request.RawUrl, request.HttpMethod));
 
-            return (Responce)_delegate.Method.Invoke(_delegate.Target, null);
+            return (Responce) _delegate.Method.Invoke(_delegate.Target, new object[] {request});
 
         }
     }

@@ -16,7 +16,8 @@ namespace ConsoleApplication1.server
         
         HttpListener _httpListener = new HttpListener();
         private Router router;
-
+        private SimpleDispatcher dispatcher;
+        
         public void start(int port)
         {
             Console.WriteLine("Starting server...");
@@ -25,7 +26,9 @@ namespace ConsoleApplication1.server
            
             Thread _responseThread = new Thread(ResponseThread);
             _responseThread.Start();
-            Console.WriteLine("Server start on port: " + port);
+            Console.WriteLine("Server start on port: " + port);            
+
+            dispatcher =  new SimpleDispatcher(Router.getRouter());
         }
 
         private void ResponseThread()
@@ -34,9 +37,13 @@ namespace ConsoleApplication1.server
             while (true)
             {
                 HttpListenerContext ctx = _httpListener.GetContext();
-                SimpleDispatcher simpleDispatcher = new SimpleDispatcher(Router.getRouter());
+                if (ctx.Request.HttpMethod == "OPTIONS")
+                {
+                    ctx.Response.StatusCode = 200;
+                    continue;    
+                }
                 
-                Responce response = simpleDispatcher.getResponce(ctx.Request);
+                Responce response = dispatcher.getResponce(ctx.Request);
                 
                 byte[] responseBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(response.Body));
                 ctx.Response.StatusCode = response.Status;

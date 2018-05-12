@@ -21,9 +21,6 @@ namespace ConsoleApplication1.server
         {
             try
             {
-                URI test1 = new URI("no", "controller");
-                URI test2 = new URI("no", "controller");
-                URI test3 = new URI("no", "controller");
                 return controllers[uri];
             }
             catch (Exception e)
@@ -37,12 +34,19 @@ namespace ConsoleApplication1.server
         {
             Router router = new Router();
             AnimalsController animalsController = new AnimalsController();
+            UsersController usersController = new UsersController();
 
             Response response;
-            response = animalsController.getLion;
             
+            response = animalsController.getLion;
             router.addController(new URI("/animals", "GET"), response);
 
+            response = usersController.createUser;
+            router.addController(new URI("/users", "POST"), response);
+
+            response = usersController.getUsers;
+            router.addController(new URI("/users", "GET"), response);
+            
             response = new NoController().noController;
             router.addController(new URI("no", "controller"), response);
             

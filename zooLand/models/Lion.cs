@@ -1,7 +1,10 @@
 ﻿namespace ConsoleApplication1.server
 {
-    public class Lion
+    public class Lion : Mammalia
     {
-        public string Name { get; set; }
+        public override void feed()
+        {
+            
+        }
     }
 }

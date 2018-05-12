@@ -8,6 +8,8 @@
         <e p="Controllers" t="Include">
           <e p="AnimalsController.cs" t="Include" />
           <e p="NoController.cs" t="Include" />
+          <e p="RequestBodyParser.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
         </e>
         <e p="DataBase" t="Include">
           <e p="DB.cs" t="Include" />
@@ -17,22 +19,26 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="injects" t="Include">
-          <e p="Dispatcher.cs" t="Include" />
-          <e p="Router.cs" t="Include" />
-          <e p="SimpleDispatcher.cs" t="Include" />
-        </e>
         <e p="models" t="Include">
-          <e p="Animal.cs" t="Include" />
           <e p="Lion.cs" t="Include" />
           <e p="Mammalia.cs" t="Include" />
+          <e p="PlaneModels" t="Include">
+            <e p="Animal.cs" t="Include" />
+            <e p="UserPlane.cs" t="Include" />
+          </e>
           <e p="Responce.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="server" t="Include">
           <e p="Server.cs" t="Include" />
           <e p="URI.cs" t="Include" />
+          <e p="injects" t="Include">
+            <e p="Dispatcher.cs" t="Include" />
+            <e p="Router.cs" t="Include" />
+            <e p="SimpleDispatcher.cs" t="Include" />
+          </e>
         </e>
         <e p="zooLand.csproj" t="IncludeRecursive" />
       </e>

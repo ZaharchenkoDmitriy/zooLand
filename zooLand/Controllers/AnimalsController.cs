@@ -9,7 +9,8 @@ namespace ConsoleApplication1.Controllers
         public Responce getLion(HttpListenerRequest request)
         {
             Lion lion = new Lion();
-            lion.Name = "Hello motherfucker";
+            lion.Name = "Lion grisha";
+            lion.FoodType = "Meat";
             
             return Responce.ok(lion);
         }
