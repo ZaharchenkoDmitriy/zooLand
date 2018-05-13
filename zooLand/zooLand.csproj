@@ -47,6 +47,8 @@
     <Compile Include="Controllers\RequestBodyParser.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="DataBase\DB.cs" />
+    <Compile Include="models\Bear.cs" />
+    <Compile Include="models\Consuming.cs" />
     <Compile Include="models\Lion.cs" />
     <Compile Include="models\Mammalia.cs" />
     <Compile Include="models\PlaneModels\Animal.cs" />

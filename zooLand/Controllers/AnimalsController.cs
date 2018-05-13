@@ -9,12 +9,11 @@ namespace ConsoleApplication1.Controllers
     {
         public Responce getAnimals(HttpListenerRequest request)
         {
-            Lion lion = new Lion();
-            lion.Name = "Lion grisha";
-            lion.AnimalClass = "Mammalia";
-            lion.FeedDate = "2018-05-05";
-            DB.animals.Add(lion);
-            
+            foreach (Consuming animal in DB.animals)
+            {
+                animal.calculateFeedDate();
+            }
+
             return Responce.ok(DB.getAnimals());
         }
     }
