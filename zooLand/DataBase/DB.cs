@@ -15,6 +15,12 @@ namespace ConsoleApplication1.DataBase
             return animalsArr;
         }
 
+        public static void createAnimal(Animal animal)
+        {
+            Animal lastAnimal = (Animal)DB.animals[DB.animals.Count - 1];
+            animal.ID = lastAnimal.ID + 1;
+        }
+
         public static void createUser(User user)
         {
             if(users.Count != 0) 

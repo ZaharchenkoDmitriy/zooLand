@@ -20,7 +20,25 @@ namespace ConsoleApplication1.server
 
         public void removeAnimal(Animal animal)
         {
-            animalsToFeed.Remove(animal);
+            foreach (Animal an in animalsToFeed)
+            {
+                if (an.ID == animal.ID)
+                {
+                    animalsToFeed.Remove(an);
+                    break;
+                } 
+            }
+        }
+
+        public bool isAppointed(Animal animal)
+        {
+            foreach (Animal an in animalsToFeed)
+            {
+                if (an.ID == animal.ID)
+                    return true;
+            }
+
+            return false;
         }
     }
 }

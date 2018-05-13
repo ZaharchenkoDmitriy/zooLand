@@ -12,10 +12,5 @@ export class AppComponent {
   title = 'app';
 
   constructor() {
-    fetch(environment.apiHost + 'users/animal?userId=1', {
-      method: 'post',
-      body: JSON.stringify({ID: 1, Name: 'Grisha'})
-    }).then(res => res.json())
-      .then(res => console.log(res));
   }
 }

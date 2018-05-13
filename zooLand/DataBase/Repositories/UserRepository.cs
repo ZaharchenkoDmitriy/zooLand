@@ -26,6 +26,10 @@ namespace ConsoleApplication1.DataBase.Repositories
 
         public User setAnimalOnUser(int id, Animal animal)
         {
+            User oldUser = findOneByAnimal(animal);
+            if(oldUser != null)
+                oldUser.removeAnimal(animal);
+            
             User user = getUserById(id);
             if (user != null)
             {
@@ -41,5 +45,15 @@ namespace ConsoleApplication1.DataBase.Repositories
             return (User[]) DB.users.ToArray(typeof(User));
         }
 
+        public User findOneByAnimal(Animal animal)
+        {
+            foreach (User user in DB.users)
+            {
+                if (user.isAppointed(animal))
+                    return user;
+            }
+
+            return null;
+        }
     }
 }

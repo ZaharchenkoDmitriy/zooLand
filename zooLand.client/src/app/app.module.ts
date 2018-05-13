@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {NgSelectComponent, NgSelectModule} from '@ng-select/ng-select';
 
 import { AppComponent } from './app.component';
 import { AnimalsListComponent } from './animals-list/animals-list.component';
@@ -28,9 +28,14 @@ import {AnimalService} from './services/animal/animal.service';
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgSelectModule
   ],
-  providers: [HttpClient, UserService, AnimalService],
+  providers: [
+    HttpClient,
+    UserService,
+    AnimalService,
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -24,8 +24,7 @@ namespace ConsoleApplication1.Controllers
         public Responce setAnimalOnUser(HttpListenerRequest request)
         {
             string animalAsString = RequestBodyParser.parse(request.InputStream, request.ContentEncoding);
-            Animal animal = new Animal();
-            animal = JsonConvert.DeserializeObject<Animal>(animalAsString);
+            Animal animal = JsonConvert.DeserializeObject<Animal>(animalAsString);
       
             User user = userRepository.setAnimalOnUser(Int32.Parse(request.QueryString["userId"]), animal);
             

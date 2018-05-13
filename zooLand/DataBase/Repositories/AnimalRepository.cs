@@ -14,5 +14,11 @@ namespace ConsoleApplication1.DataBase.Repositories
 
             return null;
         }
+
+        public Animal createAnimal(Animal animal)
+        {
+            DB.createAnimal(animal);
+            return animal;
+        }
     }
 }
