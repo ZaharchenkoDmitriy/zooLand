@@ -3,5 +3,6 @@
     public class UserPlane
     {
         public string Name { get; set; }
+        public int ID { get; set; }
     }
 }

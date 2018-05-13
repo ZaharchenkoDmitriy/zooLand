@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApplication1.DataBase;
 
 namespace ConsoleApplication1.server
 {
@@ -8,20 +9,15 @@ namespace ConsoleApplication1.server
         {
             var month = DateTime.Now.Month;
             if (!isWinter(month) && !Hungry)
-            {
-                String[] feededDate = FeedDate.Split('-');
-                int day = Int32.Parse(feededDate[2]);
-
+            {                
                 if (!isActivePeriod(month))
                 {
-                    day += 2;   
+                    FeedDate = DateFormatter.addDays(FeedDate, 2);
                 }
                 else
                 {
-                    day += 1;
-                }
-                feededDate[2] = "-" + day;
-                FeedDate = feededDate[0] + '-' + feededDate[1] + feededDate[2];
+                    FeedDate = DateFormatter.addDays(FeedDate, 1);
+                }           
             }
             if (isWinter(month))
             {
@@ -30,6 +26,7 @@ namespace ConsoleApplication1.server
             }
             if (Hungry)
             {
+                FeedDate = DateFormatter.getCurrentDate();    
                 //ToDo send message to staff
             }
         }

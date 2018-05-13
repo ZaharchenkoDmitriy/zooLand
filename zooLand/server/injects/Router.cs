@@ -41,7 +41,7 @@ namespace ConsoleApplication1.server
             UsersController usersController = new UsersController();
 
             Response response;
-            
+           
             response = animalsController.getAnimals;
             router.addController(new URI("/animals", "GET"), response);
 
@@ -50,6 +50,9 @@ namespace ConsoleApplication1.server
 
             response = usersController.getUsers;
             router.addController(new URI("/users", "GET"), response);
+
+            response = usersController.setAnimalOnUser;
+            router.addController(new URI("/users/animal", "POST"), response);
             
             response = new NoController().noController;
             router.addController(new URI("no", "controller"), response);

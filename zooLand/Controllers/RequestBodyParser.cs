@@ -9,7 +9,7 @@ namespace ConsoleApplication1.Controllers
     public class RequestBodyParser
     {
         
-        public static string parse(System.IO.Stream inputStream, System.Text.Encoding encoding) { 
+        public static string parse(Stream inputStream, System.Text.Encoding encoding) { 
             StreamReader reader = new StreamReader(inputStream, encoding);
             String bodyText = reader.ReadToEnd();
             

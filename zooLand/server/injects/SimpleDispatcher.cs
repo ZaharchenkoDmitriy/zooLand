@@ -18,7 +18,7 @@ namespace ConsoleApplication1.server
         
         public override Responce getResponce(HttpListenerRequest request)
         {
-            Delegate _delegate = router.getController(new URI(request.RawUrl, request.HttpMethod));
+            Delegate _delegate = router.getController(new URI(request.Url.AbsolutePath, request.HttpMethod));
 
             return (Responce) _delegate.Method.Invoke(_delegate.Target, new object[] {request});
 

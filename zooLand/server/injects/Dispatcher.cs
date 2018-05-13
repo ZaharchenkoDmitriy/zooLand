@@ -5,7 +5,6 @@ namespace ConsoleApplication1.server
 {
     public abstract class Dispatcher
     {
-        public abstract Responce getResponce(HttpListenerRequest request);
-               
+        public abstract Responce getResponce(HttpListenerRequest request);       
     }
 }

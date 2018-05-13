@@ -13,6 +13,11 @@
         </e>
         <e p="DataBase" t="Include">
           <e p="DB.cs" t="Include" />
+          <e p="DateFormatter.cs" t="Include" />
+          <e p="Repositories" t="Include">
+            <e p="AnimalRepository.cs" t="Include" />
+            <e p="UserRepository.cs" t="Include" />
+          </e>
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -20,12 +25,16 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="models" t="Include">
-          <e p="Bear.cs" t="Include" />
-          <e p="Consuming.cs" t="Include" />
-          <e p="Lion.cs" t="Include" />
-          <e p="Mammalia.cs" t="Include" />
-          <e p="PlaneModels" t="Include">
+          <e p="Animals" t="Include">
             <e p="Animal.cs" t="Include" />
+            <e p="Consuming.cs" t="Include" />
+            <e p="Mammalias" t="Include">
+              <e p="Bear.cs" t="Include" />
+              <e p="Lion.cs" t="Include" />
+              <e p="Mammalia.cs" t="Include" />
+            </e>
+          </e>
+          <e p="PlaneModels" t="Include">
             <e p="UserPlane.cs" t="Include" />
           </e>
           <e p="User.cs" t="Include" />

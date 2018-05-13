@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
-using System.Net;using System.Text;
+using System.Net;
+using System.Net.WebSockets;
+using System.Text;
 using System.Threading;
 using Newtonsoft.Json;
 
@@ -37,12 +39,13 @@ namespace ConsoleApplication1.server
             while (true)
             {
                 HttpListenerContext ctx = _httpListener.GetContext();
+                ctx.Response.KeepAlive = false;
+                
                 if (ctx.Request.HttpMethod == "OPTIONS")
                 {
                     ctx.Response.StatusCode = 200;
                     continue;    
                 }
-                
                 Responce response = dispatcher.getResponce(ctx.Request);
                 
                 byte[] responseBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(response.Body));

@@ -1,21 +1,26 @@
 ﻿using System;
 using System.ComponentModel;
+using ConsoleApplication1.DataBase;
 
 namespace ConsoleApplication1.server
 {
-    public abstract class Animal : Consuming
+    public class Animal : Consuming
     {
         public string Name { get; set; }
         public string FeedDate { get; set; }
         public string AnimalClass { get; set; }
         public bool Hungry { get; set; }
+        public int ID { get; set; }
 
         public Animal()
         {
-            FeedDate = DateTime.Now.Year +"-"+ DateTime.Now.Month + "-" + DateTime.Now.Day;
+            FeedDate = DateFormatter.getCurrentDate();
             Hungry = true;
         }
-        
-        public abstract void calculateFeedDate();
+
+        public virtual void calculateFeedDate()
+        {
+         return;   
+        }
     }
 }
