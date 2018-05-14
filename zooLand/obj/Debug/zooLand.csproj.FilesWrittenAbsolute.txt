@@ -10,3 +10,8 @@
 /home/imdrcha/Documents/projects/zooLand/zooLand/obj/Debug/zooLand.exe
 /home/imdrcha/Documents/projects/zooLand/zooLand/obj/Debug/zooLand.pdb
 /home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/Newtonsoft.Json.dll
+/home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/BigMath.dll
+/home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/Ionic.Zip.dll
+/home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/Ionic.ZLib.dll
+/home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/TeleSharp.TL.dll
+/home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/TLSharp.Core.dll

@@ -32,6 +32,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BigMath, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\TLSharp.0.1.0.371\lib\net45\BigMath.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.3.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\DotNetZip.1.9.3\lib\net20\Ionic.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ionic.ZLib, Version=2.0.0.14, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\TLSharp.0.1.0.371\lib\net45\Ionic.ZLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -40,6 +52,14 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Json" />
     <Reference Include="System.Xml" />
+    <Reference Include="TeleSharp.TL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\TLSharp.0.1.0.371\lib\net45\TeleSharp.TL.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TLSharp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\TLSharp.0.1.0.371\lib\net45\TLSharp.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AnimalsController.cs" />
@@ -65,12 +85,10 @@
     <Compile Include="Server\Responce.cs" />
     <Compile Include="Server\Server.cs" />
     <Compile Include="Server\URI.cs" />
+    <Compile Include="Telegram\TelegramConnector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Telegram" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -48,7 +48,9 @@
             <e p="SimpleDispatcher.cs" t="Include" />
           </e>
         </e>
-        <e p="Telegram" t="Include" />
+        <e p="Telegram" t="Include">
+          <e p="TelegramConnector.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
