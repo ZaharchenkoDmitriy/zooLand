@@ -50,24 +50,27 @@
     <Compile Include="DataBase\DB.cs" />
     <Compile Include="DataBase\Repositories\AnimalRepository.cs" />
     <Compile Include="DataBase\Repositories\UserRepository.cs" />
-    <Compile Include="models\Animals\Animal.cs" />
-    <Compile Include="models\Animals\Consuming.cs" />
-    <Compile Include="models\Animals\Mammalias\Bear.cs" />
-    <Compile Include="models\Animals\Mammalias\Lion.cs" />
-    <Compile Include="models\Animals\Mammalias\Mammalia.cs" />
-    <Compile Include="models\PlaneModels\UserPlane.cs" />
-    <Compile Include="models\User.cs" />
+    <Compile Include="Models\Animals\Animal.cs" />
+    <Compile Include="Models\Animals\Consuming.cs" />
+    <Compile Include="Models\Animals\Mammalias\Bear.cs" />
+    <Compile Include="Models\Animals\Mammalias\Lion.cs" />
+    <Compile Include="Models\Animals\Mammalias\Mammalia.cs" />
+    <Compile Include="Models\PlaneModels\UserPlane.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="server\injects\Dispatcher.cs" />
-    <Compile Include="server\injects\Router.cs" />
-    <Compile Include="server\injects\SimpleDispatcher.cs" />
-    <Compile Include="server\Responce.cs" />
-    <Compile Include="server\Server.cs" />
-    <Compile Include="server\URI.cs" />
+    <Compile Include="Server\injects\Dispatcher.cs" />
+    <Compile Include="Server\injects\Router.cs" />
+    <Compile Include="Server\injects\SimpleDispatcher.cs" />
+    <Compile Include="Server\Responce.cs" />
+    <Compile Include="Server\Server.cs" />
+    <Compile Include="Server\URI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Telegram" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

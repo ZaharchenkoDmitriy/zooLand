@@ -18,6 +18,17 @@ namespace ConsoleApplication1.server
             animalsToFeed.Add(animal);
         }
 
+        public Animal findAnimal(Animal animal)
+        {
+            foreach (Animal an in animalsToFeed)
+            {
+                if (an.ID == animal.ID)
+                    return an;
+            }
+
+            return null;
+        }
+
         public void removeAnimal(Animal animal)
         {
             foreach (Animal an in animalsToFeed)
@@ -39,6 +50,12 @@ namespace ConsoleApplication1.server
             }
 
             return false;
+        }
+
+        public void feedTheAnimal(Animal animal)
+        {
+            Animal animalToFeed = findAnimal(animal);
+            animalToFeed.Hungry = false;
         }
     }
 }

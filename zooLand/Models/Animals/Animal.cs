@@ -9,7 +9,17 @@ namespace ConsoleApplication1.server
         public string Name { get; set; }
         public string FeedDate { get; set; }
         public string AnimalClass { get; set; }
-        public bool Hungry { get; set; }
+
+        public bool Hungry
+        {
+            get { return Hungry; }
+            set
+            {
+                Hungry = value;
+                calculateFeedDate();
+            }
+        }
+
         public int ID { get; set; }
 
         public Animal()
