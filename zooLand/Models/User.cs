@@ -55,7 +55,8 @@ namespace ConsoleApplication1.server
         public void feedTheAnimal(Animal animal)
         {
             Animal animalToFeed = findAnimal(animal);
-            animalToFeed.Hungry = false;
+            animalToFeed.Hungry = true;
+            DB.telegramConnector.sendMessageToUser(this, "You must feed the " + animal.Name);
         }
     }
 }

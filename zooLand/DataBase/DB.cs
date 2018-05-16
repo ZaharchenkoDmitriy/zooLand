@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Runtime.CompilerServices;
+﻿using System.Collections;
 using ConsoleApplication1.server;
 
 namespace ConsoleApplication1.DataBase
@@ -9,6 +7,7 @@ namespace ConsoleApplication1.DataBase
     {
         public static ArrayList animals = new ArrayList();
         public static ArrayList users = new ArrayList();
+        public static TelegramConnector telegramConnector { get; set; }
 
         public static Animal[] getAnimals()
         {

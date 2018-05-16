@@ -9,6 +9,27 @@ namespace ConsoleApplication1.server
         {
             
             var month = DateTime.Now.Month;
+            if (FeedDate.Equals(DateFormatter.getCurrentDate()))
+            {
+                Hungry = true;
+                return;
+            }            
+            if (isWinter(month))
+            {
+                int year = DateTime.Now.Year;
+                if (month == 12)
+                    year++;
+                
+                FeedDate = year + "-03-01";
+                return;
+            }
+            
+            if (Hungry)
+            {
+                FeedDate = DateFormatter.getCurrentDate();
+                return;
+            }
+            
             if (!isWinter(month) && !Hungry)
             {                
                 if (!isActivePeriod(month))
@@ -19,15 +40,6 @@ namespace ConsoleApplication1.server
                 {
                     FeedDate = DateFormatter.addDays(FeedDate, 1);
                 }           
-            }
-            if (isWinter(month))
-            {
-                FeedDate = DateTime.Now.Year + "-03-01";
-                return;
-            }
-            if (Hungry)
-            {
-                FeedDate = DateFormatter.getCurrentDate();
             }
         }
 

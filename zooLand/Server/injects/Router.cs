@@ -47,6 +47,9 @@ namespace ConsoleApplication1.server
 
             response = animalsController.getAppointedUser;
             router.addController(new URI("/animals/appointed-user", "POST"), response);
+
+            response = animalsController.feedToday;
+            router.addController(new URI("/animals/feed-today", "POST"), response);
             
             response = usersController.createUser;
             router.addController(new URI("/users", "POST"), response);

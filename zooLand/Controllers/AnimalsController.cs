@@ -34,7 +34,21 @@ namespace ConsoleApplication1.Controllers
             
             return Responce.notFound();
         }
-        
+
+        public Responce feedToday(HttpListenerRequest request)
+        {
+            Animal animal = parseAnimal(request);
+
+            User user = userRepository.findOneByAnimal(animal);
+
+            if (user != null)
+            {
+                user.feedTheAnimal(animal);
+                return Responce.ok(user);
+            }
+            
+            return Responce.notFound();
+        }
         
         private Animal parseAnimal(HttpListenerRequest request)
         {

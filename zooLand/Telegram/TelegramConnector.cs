@@ -22,6 +22,11 @@ namespace ConsoleApplication1
             Thread.Sleep(2000);
         }
 
+        public void sendMessageToUser(User user, string message)
+        {
+            botClient.SendTextMessageAsync(chatId, message);
+        }
+        
         public void sendMessagesToStuff()
         {
             foreach (Animal animal in DB.animals)

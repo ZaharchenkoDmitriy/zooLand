@@ -21,4 +21,11 @@ export class AnimalService {
     })
       .then(res => res.json());
   }
+
+  feed(animal: Animal) {
+    return fetch(this.url + 'feed-today', {
+      method: 'post',
+      body: JSON.stringify(animal)
+    }). then(res => res.json());
+  }
 }

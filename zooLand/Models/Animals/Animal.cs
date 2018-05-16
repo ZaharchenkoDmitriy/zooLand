@@ -17,7 +17,6 @@ namespace ConsoleApplication1.server
             set
             {
                 hungry = value;
-                calculateFeedDate();
             }
         }
 

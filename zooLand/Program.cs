@@ -16,6 +16,7 @@ namespace ConsoleApplication1
             HttpServer httpServer = new HttpServer(Router.getRouter());
 
             DB.init();
+            DB.telegramConnector = telegramConnector;
             
             telegramConnector.sendMessagesToStuff();   
             httpServer.start(3000);
