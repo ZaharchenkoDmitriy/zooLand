@@ -1,70 +1,43 @@
 ﻿using System;
 using System.Linq;
-using System.Net.Sockets;
-using System.Runtime.InteropServices;
 using System.Threading;
-using TeleSharp.TL;
-using TLSharp.Core;
-using TLSharp.Core.Network;
+using ConsoleApplication1.DataBase;
+using ConsoleApplication1.server;
 
-namespace ConsoleApplication1.Telegram
+namespace ConsoleApplication1
 {
     public class TelegramConnector
     {
-        public TelegramConnector() {
-            FileSessionStore store = new FileSessionStore();
-            telegramClient = new TelegramClient(212720, "d1143df7049379369cb0dcd0ad79f779", store);
-        }
-
-        private TelegramClient telegramClient;
+        private Telegram.Bot.TelegramBotClient botClient;
+        private int chatId = -298163036;
         
-        public async void connect()
-        {
-            try
-            {
-               telegramClient.ConnectAsync();
-            }
-            catch (FloodException floodException)
-            {
-                Thread.Sleep(floodException.TimeToWait);
-            }
+        public TelegramConnector() {
+            // 524727579:AAHZaFNr3S1vUfuPy-wZEIGO3-WxQWodL5s
+            botClient = new Telegram.Bot.TelegramBotClient("524727579:AAHZaFNr3S1vUfuPy-wZEIGO3-WxQWodL5s");
+            var me = botClient.GetMeAsync();
+
+            Console.WriteLine("Api for bot: " + me.Result.FirstName + " - was connected");            
+            Console.WriteLine("Connected to: " + botClient.GetChatAsync(chatId).Result.Title + "chat");
 
             Thread.Sleep(2000);
-            
-            if (!telegramClient.IsUserAuthorized())
-                auth();
-            
-        }
-        public async void auth()
-        {
-
-            var hash = telegramClient.SendCodeRequestAsync("380631147813").Result;
-            var code = "34618";
-            var me = telegramClient.MakeAuthAsync("380631147813", code, hash);
-            
-            Thread.Sleep(3000);
-        }
-        
-        public async void sendMessage(int userId, string message)
-        {
-            var result = telegramClient.GetContactsAsync();
-            var user = result.Result.Users
-                .Where(x => x.GetType() == typeof (TLUser))
-                .Cast<TLUser>()
-                .FirstOrDefault(x => x.Phone == "80971847169");
-                
-            telegramClient.SendMessageAsync(new TLInputPeerUser() {UserId = user.Id}, "privet tebe solnce iz moeygo servera, sladkih snov");
         }
 
-        public void sendMessage(string phone, string message)
+        public void sendMessagesToStuff()
         {
-            var result = telegramClient.GetContactsAsync();
-            var user = result.Result.Users
-                .Where(x => x.GetType() == typeof (TLUser))
-                .Cast<TLUser>()
-                .FirstOrDefault(x => x.Phone == phone);
+            foreach (Animal animal in DB.animals)
+            {
+                if (animal.Hungry || animal.FeedDate == DateFormatter.getCurrentDate())
+                {
+                    foreach (User user in DB.users)
+                    {
+                        if (user.isAppointed(animal))
+                        {
+                            botClient.SendTextMessageAsync(chatId, user.Name + " must to feed the " + animal.Name);
+                        }
+                    }
+                }
                 
-            telegramClient.SendMessageAsync(new TLInputPeerUser() {UserId = user.Id}, message); 
+            }
         }
     }
 }

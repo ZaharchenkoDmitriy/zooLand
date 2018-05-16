@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Runtime.CompilerServices;
 using ConsoleApplication1.server;
 
@@ -38,17 +39,22 @@ namespace ConsoleApplication1.DataBase
         public static void init()
         {
             
-            Lion lion = new Lion();
+            Lion lion = new Lion();            
             lion.Name = "Lion grisha";
             lion.ID = 1;
             lion.FeedDate = "2018-05-05";
             animals.Add(lion);
-            
+
             Bear bear = new Bear();
             bear.Name = "Misha";
             bear.ID = 2;
+            bear.Hungry = true;
             bear.FeedDate = "2018-05-05";
             animals.Add(bear);
+
+            User misha = new User("Misha Ivanov");
+            misha.ID = 1;
+            users.Add(misha);
         }
     }
 }

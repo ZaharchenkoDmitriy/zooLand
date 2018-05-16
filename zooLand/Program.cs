@@ -1,6 +1,7 @@
-﻿using ConsoleApplication1.DataBase;
+﻿using System;
+using System.Threading;
+using ConsoleApplication1.DataBase;
 using ConsoleApplication1.server;
-using ConsoleApplication1.Telegram;
 
 
 namespace ConsoleApplication1
@@ -12,12 +13,22 @@ namespace ConsoleApplication1
         public static void Main(string[] args)
         {
             TelegramConnector telegramConnector = new TelegramConnector();
-            telegramConnector.connect();
-           
-            /*HttpServer httpServer = new HttpServer(Router.getRouter());
+            HttpServer httpServer = new HttpServer(Router.getRouter());
+
             DB.init();
             
-            httpServer.start(3000);*/
+            telegramConnector.sendMessagesToStuff();   
+            httpServer.start(3000);
+            
+            while (true)
+            {
+                foreach (Animal animal in DB.animals)
+                {
+                    animal.calculateFeedDate();
+                }
+                telegramConnector.sendMessagesToStuff();
+                Thread.Sleep(86400000);
+            }
         }
     }
 }

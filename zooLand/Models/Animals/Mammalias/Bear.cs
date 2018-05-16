@@ -7,6 +7,7 @@ namespace ConsoleApplication1.server
     {
         public override void calculateFeedDate()
         {
+            
             var month = DateTime.Now.Month;
             if (!isWinter(month) && !Hungry)
             {                
@@ -26,8 +27,7 @@ namespace ConsoleApplication1.server
             }
             if (Hungry)
             {
-                FeedDate = DateFormatter.getCurrentDate();    
-                //ToDo send message to staff
+                FeedDate = DateFormatter.getCurrentDate();
             }
         }
 

@@ -15,3 +15,4 @@
 /home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/Ionic.ZLib.dll
 /home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/TeleSharp.TL.dll
 /home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/TLSharp.Core.dll
+/home/imdrcha/Documents/projects/zooLand/zooLand/bin/Debug/Telegram.Bot.dll

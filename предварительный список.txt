@@ -1,0 +1,22 @@
+﻿Общее: 
+	
+1.  Три прицнипа ООП
+2. Делегаты
+3. Позднее связывание
+4. Приведение типов
+5. Композиция
+6. Агрегация
+
+Ксюша:
+
+7. Windows Forms
+8. SoundPlayer class c# windows forms (https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-play-a-sound-from-a-windows-form)
+
+Дима:
+
+7. Netsonsoft.Json
+8. HttpListener Class
+9. Клиент-серверная архитектура
+10. NuGet
+11. TlSharp	
+

@@ -4,6 +4,7 @@ using System.Net;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
+using ConsoleApplication1.DataBase;
 using Newtonsoft.Json;
 
 namespace ConsoleApplication1.server
@@ -25,17 +26,16 @@ namespace ConsoleApplication1.server
             Console.WriteLine("Starting server...");
             _httpListener.Prefixes.Add("http://localhost:+"+ port +"/");
             _httpListener.Start();
-           
+                        
             Thread _responseThread = new Thread(ResponseThread);
             _responseThread.Start();
-            Console.WriteLine("Server start on port: " + port);            
+            Console.WriteLine("Server start on port: " + port);
 
             dispatcher =  new SimpleDispatcher(Router.getRouter());
         }
 
         private void ResponseThread()
         {
-            
             while (true)
             {
                 HttpListenerContext ctx = _httpListener.GetContext();
