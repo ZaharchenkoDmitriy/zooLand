@@ -56,7 +56,23 @@ namespace ConsoleApplication1.server
         {
             Animal animalToFeed = findAnimal(animal);
             animalToFeed.Hungry = true;
-            DB.telegramConnector.sendMessageToUser(this, "You must feed the " + animal.Name);
+            DB.telegramConnector.sendMessageToUser(this, animalToFeed);
+        }
+
+        public string getAppointedAnimalsMessage()
+        {
+            string result = "You must to feed animals: \n";
+            bool animalFinded = false;
+            foreach (Animal animal in animalsToFeed)
+            {
+                if (animal.Hungry)
+                {
+                    result += animal.Name + '\n';
+                    animalFinded = true;
+                }
+            }
+
+            return animalFinded ? result : "You are free now, there are no animals to feed";
         }
     }
 }

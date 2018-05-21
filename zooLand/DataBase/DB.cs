@@ -39,8 +39,9 @@ namespace ConsoleApplication1.DataBase
         {
             
             Lion lion = new Lion();            
-            lion.Name = "Lion grisha";
+            lion.Name = "Grisha";
             lion.ID = 1;
+            lion.Hungry = false;
             lion.FeedDate = "2018-05-05";
             animals.Add(lion);
 
@@ -54,6 +55,30 @@ namespace ConsoleApplication1.DataBase
             User misha = new User("Misha Ivanov");
             misha.ID = 1;
             users.Add(misha);
+        }
+
+        public static User findUserByChat(long chatId)
+        {
+            foreach (User user in users)
+            {
+                if (user.ChatId == chatId)
+                    return user;
+            }
+
+            return null;
+        }
+
+        public static User findUserByName(string name)
+        {
+            foreach (User user in users)
+            {
+                if (user.Name.Equals(name))
+                {
+                    return user;
+                }
+            }
+
+            return null;
         }
     }
 }

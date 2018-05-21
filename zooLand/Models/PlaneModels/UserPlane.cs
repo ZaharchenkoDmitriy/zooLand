@@ -6,5 +6,6 @@ namespace ConsoleApplication1.server.PlaneModels
     {
         public string Name { get; set; }
         public int ID { get; set; } 
+        public long ChatId { get; set; }
     }
 }
