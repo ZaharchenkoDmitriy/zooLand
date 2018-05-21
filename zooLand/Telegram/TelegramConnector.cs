@@ -66,7 +66,25 @@ namespace ConsoleApplication1
             User user = DB.findUserByChat(chatId);
             if (user != null)
             {
-                botClient.SendTextMessageAsync(user.ChatId, user.getAppointedAnimalsMessage());
+                if(text.Substring(1).Equals("animals") && text[0] == '/')
+                {
+                    botClient.SendTextMessageAsync(user.ChatId, user.getAppointedAnimalsMessage());
+                }
+                else if (text.Substring(1).Equals("feed"))
+                {
+                    if(text.Length < 7)
+                        return;
+                    
+                    text = text.Substring(6);
+                    Animal animal = user.findAnimalByName(text);
+                    botClient.SendTextMessageAsync(user.ChatId,
+                        animal == null
+                            ? "It is not your animal"
+                            : "Well done boy");
+
+                    if (animal != null)
+                        animal.Hungry = false;
+                }
             }
             else
             {
@@ -74,18 +92,27 @@ namespace ConsoleApplication1
                 {
                     if (text[0] == '/')
                     {
-                        text = text.Substring(1, text.Length - 1);
-                        user = DB.findUserByName(text);
-                        if(user != null)
-                            user.ChatId = chatId;
-                        botClient.SendTextMessageAsync(chatId,
-                            user == null
-                                ? "Ask your administrator about adding you to system"
-                                : "Thanks, now we know about you, write any message to get your animal that must be feeded");
-                    }
-                    else
-                    {   
-                        botClient.SendTextMessageAsync(chatId, "You should add yourself to this bot by command /<name>");
+                        if(text.Length < 8)
+                            return;
+                        
+                        if (text.Substring(0,6).Equals("/start"))
+                        {
+                            text = text.Substring(7);
+                            user = DB.findUserByName(text);
+                            if(user != null)
+                                user.ChatId = chatId;
+                            
+                            botClient.SendTextMessageAsync(chatId,
+                                    user == null
+                                        ? "Ask your administrator about adding you to system"
+                                        : "Thanks, now we know about you, write </animals> to get your animal that must be feeded");
+                            
+                            if(user != null)
+                                botClient.SendTextMessageAsync(chatId, "Avaible commands: \n"
+                                                                       + "/feed/<Animal Name>\n"
+                                                                       + "/animals");
+
+                        }                        
                     }
                 }
             }

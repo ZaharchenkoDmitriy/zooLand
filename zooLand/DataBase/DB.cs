@@ -41,7 +41,7 @@ namespace ConsoleApplication1.DataBase
             Lion lion = new Lion();            
             lion.Name = "Grisha";
             lion.ID = 1;
-            lion.Hungry = false;
+            lion.Hungry = true;
             lion.FeedDate = "2018-05-05";
             animals.Add(lion);
 
@@ -52,9 +52,12 @@ namespace ConsoleApplication1.DataBase
             bear.FeedDate = "2018-05-05";
             animals.Add(bear);
 
-            User misha = new User("Misha Ivanov");
-            misha.ID = 1;
-            users.Add(misha);
+            User yaLubimiy = new User("zahar");
+            yaLubimiy.ID = 1;
+            //yaLubimiy.ChatId = 376484784;
+            yaLubimiy.addAnimal(lion);
+            
+            users.Add(yaLubimiy);
         }
 
         public static User findUserByChat(long chatId)

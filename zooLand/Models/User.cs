@@ -74,5 +74,16 @@ namespace ConsoleApplication1.server
 
             return animalFinded ? result : "You are free now, there are no animals to feed";
         }
+
+        public Animal findAnimalByName(string name)
+        {
+            foreach (Animal animal in animalsToFeed)
+            {
+                if (animal.Name.Equals(name))
+                    return animal;
+            }
+
+            return null;
+        }
     }
 }

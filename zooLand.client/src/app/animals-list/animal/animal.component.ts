@@ -34,7 +34,6 @@ export class AnimalComponent implements OnInit {
   feed() {
     this.animalService.feed(this.animal)
       .then(user => {
-        alert(user.Name);
       });
   }
 }
