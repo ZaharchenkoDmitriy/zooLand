@@ -39,22 +39,30 @@ namespace ConsoleApplication1.DataBase
         {
             
             Lion lion = new Lion();            
-            lion.Name = "Grisha";
+            lion.Name = "Lion Simba";
             lion.ID = 1;
             lion.Hungry = true;
             lion.FeedDate = "2018-05-05";
             animals.Add(lion);
 
             Bear bear = new Bear();
-            bear.Name = "Misha";
+            bear.Name = "Michael the bear";
             bear.ID = 2;
             bear.Hungry = true;
             bear.FeedDate = "2018-05-05";
             animals.Add(bear);
+            
+            
+            Bear bear2 = new Bear();
+            bear2.Name = "Bear Misha";
+            bear2.ID = 2;
+            bear2.Hungry = true;
+            bear2.FeedDate = "2018-05-05";
+            animals.Add(bear2);
 
             User yaLubimiy = new User("zahar");
             yaLubimiy.ID = 1;
-            //yaLubimiy.ChatId = 376484784;
+           // yaLubimiy.ChatId = 376484784;
             yaLubimiy.addAnimal(lion);
             
             users.Add(yaLubimiy);

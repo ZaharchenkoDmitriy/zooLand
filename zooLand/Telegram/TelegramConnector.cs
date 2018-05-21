@@ -70,7 +70,12 @@ namespace ConsoleApplication1
                 {
                     botClient.SendTextMessageAsync(user.ChatId, user.getAppointedAnimalsMessage());
                 }
-                else if (text.Substring(1).Equals("feed"))
+
+                if (text.Length < 6)
+                {
+                    return;
+                }
+                if (text.Substring(1, 4).Equals("feed"))
                 {
                     if(text.Length < 7)
                         return;
