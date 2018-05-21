@@ -1,1 +1,31 @@
-
+.content {
+  display: inline-block;
+}
+#feed-me {
+  position: absolute;
+  top: 0.4rem;
+  left: -1rem;
+  width: 2rem;
+  height: 2.5rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url('../../../assets/animal-feed.svg');
+}
+#feed-me:hover {
+  cursor: pointer;
+}
+#save {
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  z-index: 2000;
+  right: -1rem;
+  top: 0.2rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: none;
+  background-image: url("../../../assets/ok-mark.svg");
+  background-size: cover;
+}
+#save:hover {
+  cursor: pointer;
+}

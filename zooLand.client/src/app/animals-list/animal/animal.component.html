@@ -1,13 +1,14 @@
-<div class="d-flex justify-content-between">
-  <button (click)="feed()">feedme</button>
-  <div>{{animal.Name}} {{animal.FeedDate}}</div>
-  <div class="d-flex">
-    <ng-select class="custom"
-             [items]="users"
-             bindLabel="Name"
-             [(ngModel)]="selectedUser"
-             style="width: 10rem; margin-right: 1rem"></ng-select>
-    <button class="btn btn-dark"
-            (click)="save()">save</button>
+<div id="container" style="position: relative">
+  <button class="content" id="feed-me" (click)="feed()"></button>
+  <div class="content" style="margin-left: 1.3rem; line-height: 3rem">{{animal.Name}}</div>
+  <div class="content" style="width: 9rem;float: right;margin-right: 1rem">
+   <ng-select class="custom"
+               [items]="users"
+               bindLabel="Name"
+               [(ngModel)]="selectedUser"
+               style="width: 9rem; margin-right: 0.1rem"></ng-select>
+
+   <button id="save"
+            (click)="save()"></button>
   </div>
 </div>

@@ -11,8 +11,9 @@ import { UsersComponent } from './users/users.component';
 import { UserComponent } from './users/user/user.component';
 import { CreateUserComponent } from './users/create-user/create-user.component';
 import {FormsModule} from '@angular/forms';
-import { AnimalsComponent } from './animals/animals.component';
 import {AnimalService} from './services/animal/animal.service';
+import {RouterModule} from '@angular/router';
+import {ROUTES} from './app.routes';
 
 
 @NgModule({
@@ -22,14 +23,14 @@ import {AnimalService} from './services/animal/animal.service';
     AnimalComponent,
     UsersComponent,
     UserComponent,
-    CreateUserComponent,
-    AnimalsComponent
+    CreateUserComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    NgSelectModule
+    NgSelectModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [
     HttpClient,
