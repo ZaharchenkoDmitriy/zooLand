@@ -1,6 +1,6 @@
-<div class="d-flex justify-content-center mt-5">
+<div class="d-flex justify-content-center ">
   <ul class="list-group" *ngFor="let animalsList of splitedAnimals">
-    <h3>{{animalsList.class}}</h3>
+    <h3 style="margin: auto; margin-bottom: 5px;color: #1d2120" >{{animalsList.class}}s</h3>
     <li *ngFor="let animal of animalsList.animals" class="list-group-item">
       <app-animal [animal]="animal"></app-animal>
     </li>

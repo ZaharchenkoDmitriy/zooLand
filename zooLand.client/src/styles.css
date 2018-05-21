@@ -1,2 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@ng-select/ng-select/themes/default.theme.css";
+
+body {
+  background-color: rgba(202, 219, 211, 0.42);
+
+}
+.btn {
+  color: #ba9077;
+  background-color: #1d2120;
+}
+.btn:enabled {
+ color: #ba9077;
+  background-color: #1d2120;
+}

@@ -1,13 +1,14 @@
 <div class="d-flex flex-column">
-  <h3>Staff</h3>
-
-  <ul class="list-group">
-    <app-user *ngFor="let user of users" [user]="user"></app-user>
-  </ul>
-
-  <button (click)="creatingUser = true"
+  <button (click)="creatingUser = !creatingUser"
           class="btn btn-dark">
-  Create User
+    Create User
   </button>
   <app-create-user *ngIf="creatingUser" (userCreated)="userCreated($event)"></app-create-user>
+
+
+  <ul class="list-group">
+    <li>
+      <app-user class="list-group-item" *ngFor="let user of users" [user]="user"></app-user>
+    </li>
+  </ul>
 </div>

@@ -1,0 +1,16 @@
+form {
+  padding: 1rem;
+}
+
+.input-group-text {
+  background-color: #1d2120;
+  color: #ba9077;
+}
+input {
+  background-color: #bcd5d1;
+  border: 1px solid #1d2120;
+}
+input:focus {
+  background-color: #bcd5d1;
+  border: 1px solid #1d2120;
+}
